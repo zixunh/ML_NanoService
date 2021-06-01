@@ -1,61 +1,152 @@
-<mxfile host="app.diagrams.net" modified="2021-06-01T09:34:45.437Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="HcuRPJxaaNFeXo8JcjI7" version="14.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-01T11:10:40.368Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="GxsDvHPpmeluGlJ3a0rV" version="14.7.3" type="github">
   <diagram id="8oiFQwh7EYD4VP7LvUy2" name="Page-1">
-    <mxGraphModel dx="2244" dy="840" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1627" dy="980" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="scqn5qoiFc7yp6WjG8HU-1" value="Mapping Prediction" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="605" y="440" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="scqn5qoiFc7yp6WjG8HU-2" value="End Point" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="150" y="440" width="120" height="60" as="geometry" />
+          <mxGeometry x="300" y="390" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="scqn5qoiFc7yp6WjG8HU-3" value="ML Algorithm" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="150" y="570" width="120" height="60" as="geometry" />
+          <mxGeometry x="300" y="560" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="scqn5qoiFc7yp6WjG8HU-4" value="ML Algorithm Status" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="340" y="570" width="120" height="60" as="geometry" />
+          <mxGeometry x="300" y="640" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="scqn5qoiFc7yp6WjG8HU-6" value="GAN Request" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="605" y="690" width="120" height="60" as="geometry" />
+        <mxCell id="scqn5qoiFc7yp6WjG8HU-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=diamondThin;endFill=1;" edge="1" parent="1" source="scqn5qoiFc7yp6WjG8HU-6" target="scqn5qoiFc7yp6WjG8HU-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="895" y="530" />
+              <mxPoint x="390" y="530" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="scqn5qoiFc7yp6WjG8HU-9" value="The architecture is implemented and modified based on https://www.deploymachinelearning.com/, &lt;br&gt;adding a user system and GAN-based map prediction management." style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="65" y="970" width="540" height="30" as="geometry" />
+          <mxGeometry x="270" y="270" width="540" height="30" as="geometry" />
         </mxCell>
         <mxCell id="scqn5qoiFc7yp6WjG8HU-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="scqn5qoiFc7yp6WjG8HU-10" target="scqn5qoiFc7yp6WjG8HU-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="scqn5qoiFc7yp6WjG8HU-22" value="create" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="scqn5qoiFc7yp6WjG8HU-15">
           <mxGeometry x="0.4084" y="-4" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-6" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="scqn5qoiFc7yp6WjG8HU-10" value="users" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="940" y="610" width="30" height="60" as="geometry" />
+          <mxGeometry x="1240" y="870" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="scqn5qoiFc7yp6WjG8HU-11" value="developers" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="-190" y="610" width="30" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="scqn5qoiFc7yp6WjG8HU-12" value="Custom User" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="605" y="230" width="120" height="60" as="geometry" />
+          <mxGeometry x="300" y="870" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="scqn5qoiFc7yp6WjG8HU-14" value="" style="endArrow=diamondThin;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=none;startFill=0;endFill=1;" edge="1" parent="1" source="scqn5qoiFc7yp6WjG8HU-13" target="scqn5qoiFc7yp6WjG8HU-12">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="470" y="560" as="sourcePoint" />
-            <mxPoint x="520" y="510" as="targetPoint" />
+            <mxPoint x="730" y="580" as="sourcePoint" />
+            <mxPoint x="780" y="530" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="scqn5qoiFc7yp6WjG8HU-20" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="420" y="230" width="140" height="80" as="geometry" />
+          <mxGeometry x="680" y="770" width="140" height="80" as="geometry" />
         </mxCell>
         <mxCell id="scqn5qoiFc7yp6WjG8HU-13" value="Profile" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="scqn5qoiFc7yp6WjG8HU-20">
           <mxGeometry width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="scqn5qoiFc7yp6WjG8HU-19" value="Component which records user information, which affects conditional constraints of GAN algorithm." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="scqn5qoiFc7yp6WjG8HU-20">
-          <mxGeometry y="60" width="140" height="20" as="geometry" />
+          <mxGeometry x="5" y="60" width="140" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="scqn5qoiFc7yp6WjG8HU-21" value="Component which sets permissions in groups for urban researchers, policy makers, and ordinary users to create environments for different groups to participate in urban construction." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="605" y="290" width="140" height="20" as="geometry" />
+        <mxCell id="scqn5qoiFc7yp6WjG8HU-23" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="865" y="770" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="scqn5qoiFc7yp6WjG8HU-12" value="Custom User" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="scqn5qoiFc7yp6WjG8HU-23">
+          <mxGeometry width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="scqn5qoiFc7yp6WjG8HU-21" value="Component which sets permissions in groups for urban researchers, policy makers, and ordinary users to create environments for different groups to participate in urban construction." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="scqn5qoiFc7yp6WjG8HU-23">
+          <mxGeometry x="5" y="60" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="scqn5qoiFc7yp6WjG8HU-24" value="" style="endArrow=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=diamondThin;startFill=1;" edge="1" parent="1" source="scqn5qoiFc7yp6WjG8HU-12" target="scqn5qoiFc7yp6WjG8HU-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="770" as="sourcePoint" />
+            <mxPoint x="730" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="scqn5qoiFc7yp6WjG8HU-25" value="" style="endArrow=none;html=1;startArrow=diamondThin;startFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="scqn5qoiFc7yp6WjG8HU-6" target="scqn5qoiFc7yp6WjG8HU-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="935" y="730" as="sourcePoint" />
+            <mxPoint x="935" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="scqn5qoiFc7yp6WjG8HU-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="scqn5qoiFc7yp6WjG8HU-10" target="scqn5qoiFc7yp6WjG8HU-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1264.9999999999995" y="830" as="sourcePoint" />
+            <mxPoint x="994.9999999999995" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="scqn5qoiFc7yp6WjG8HU-27" value="create" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="scqn5qoiFc7yp6WjG8HU-26">
+          <mxGeometry x="0.4084" y="-4" relative="1" as="geometry">
+            <mxPoint x="-103" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="scqn5qoiFc7yp6WjG8HU-33" value="" style="endArrow=none;html=1;startArrow=diamondThin;startFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="scqn5qoiFc7yp6WjG8HU-2" target="scqn5qoiFc7yp6WjG8HU-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="600" as="sourcePoint" />
+            <mxPoint x="500" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="scqn5qoiFc7yp6WjG8HU-34" value="" style="endArrow=none;html=1;startArrow=diamondThin;startFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="scqn5qoiFc7yp6WjG8HU-3" target="scqn5qoiFc7yp6WjG8HU-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="460" as="sourcePoint" />
+            <mxPoint x="370" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="scqn5qoiFc7yp6WjG8HU-35" value="Used to manage the version of the algorithm that can be trusted" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="390" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="scqn5qoiFc7yp6WjG8HU-36" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="725" y="390" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="scqn5qoiFc7yp6WjG8HU-6" value="GAN Request" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="scqn5qoiFc7yp6WjG8HU-36">
+          <mxGeometry x="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="scqn5qoiFc7yp6WjG8HU-29" value="Every operation request of the user will be recorded, GAN Request contains the following information: input label, synthesized image, and corresponding algorithm used." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="scqn5qoiFc7yp6WjG8HU-36">
+          <mxGeometry width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="scqn5qoiFc7yp6WjG8HU-37" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="865" y="560" width="265" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="scqn5qoiFc7yp6WjG8HU-1" value="Mapping Prediction" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="scqn5qoiFc7yp6WjG8HU-37">
+          <mxGeometry width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="scqn5qoiFc7yp6WjG8HU-28" value="Component which records prediction request information,&amp;nbsp; inclusive of corresponding users and requests, geographic coordinates, predicted output and extraction information." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="scqn5qoiFc7yp6WjG8HU-37">
+          <mxGeometry x="125" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="scqn5qoiFc7yp6WjG8HU-39" value="Bundle the trained algorithm model" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="560" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="scqn5qoiFc7yp6WjG8HU-40" value="Each algorithm has one and only one active state" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="640" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="scqn5qoiFc7yp6WjG8HU-41" value="Specify" style="rhombus;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1215" y="700" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="scqn5qoiFc7yp6WjG8HU-42" value="According to the user&#39;s request, specify the status, version, and endpoint of the algorithm to be used." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="700" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="scqn5qoiFc7yp6WjG8HU-46" value="" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=none;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="340" width="870" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="scqn5qoiFc7yp6WjG8HU-47" value="" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=none;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="370" width="510" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="scqn5qoiFc7yp6WjG8HU-49" value="Initialize" style="rhombus;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1215" y="580" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="scqn5qoiFc7yp6WjG8HU-50" value="Predict" style="rhombus;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1215" y="450" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="scqn5qoiFc7yp6WjG8HU-51" value="Create objects, save the request&#39;s input information" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="590" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="scqn5qoiFc7yp6WjG8HU-52" value="Start the algorithm, save the output" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="460" width="140" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
